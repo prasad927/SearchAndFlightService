@@ -96,7 +96,7 @@ const getAllCities = async (req,resp)=>{
         return resp.status(500).json({
             data:{},
             success:false,
-            message:"Not able to update a cities",
+            message:"Not able to fetch the cities",
             err:error
         });
     }
